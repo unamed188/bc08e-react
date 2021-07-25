@@ -11,7 +11,8 @@
 // import StyleComponent from './StyleComponent/StyleComponent'
 // import ShoesShop from "./Props/ShoesShop/ShoesShop";
 // import BaiTapXemChiTiet from "./Props/BaiTapXemChiTiet/BaiTapXemChiTiet";
-import ExerciseCarStore from "./ExerciseCarStore/ExerciseCarStore";
+// import ExerciseCarStore from "./ExerciseCarStore/ExerciseCarStore";
+import ExerciseCart from "./ExerciseCart/ExerciseCart";
 function App() {
   return (
     <div className="App">
@@ -25,7 +26,8 @@ function App() {
       {/* <HomeLayout/> */}
       {/* <ShoesShop /> */}
       {/* <BaiTapXemChiTiet /> */}
-      <ExerciseCarStore />
+      {/* <ExerciseCarStore /> */}
+      <ExerciseCart />
     </div>
   );
 }
